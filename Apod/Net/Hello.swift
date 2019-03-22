@@ -8,9 +8,15 @@
 
 import Foundation
 
-class Hello {
-    
+public class Hello {
+    public init() {
+        
+    }
     public func hello() {
         print("helloooooooooo")
+    }
+    
+    public func say() {
+        print("asdasdassadsadsas")
     }
 }

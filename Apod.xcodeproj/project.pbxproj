@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1E1664A22408ED600905E17 /* Apod.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E1664822408ED600905E17 /* Apod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1E1666F2240D66400905E17 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E1666E2240D66400905E17 /* Hello.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1E1664522408ED600905E17 /* Apod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1E1664822408ED600905E17 /* Apod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apod.h; sourceTree = "<group>"; };
 		F1E1664922408ED600905E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E1666E2240D66400905E17 /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,11 +46,18 @@
 		F1E1664722408ED600905E17 /* Apod */ = {
 			isa = PBXGroup;
 			children = (
-				F1E1664822408ED600905E17 /* Apod.h */,
+				F1E166C32244866600905E17 /* Net */,
 				F1E1664922408ED600905E17 /* Info.plist */,
-				F1E1666E2240D66400905E17 /* Hello.swift */,
 			);
 			path = Apod;
+			sourceTree = "<group>";
+		};
+		F1E166C32244866600905E17 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				F1E1666E2240D66400905E17 /* Hello.swift */,
+			);
+			path = Net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,7 +67,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E1664A22408ED600905E17 /* Apod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
